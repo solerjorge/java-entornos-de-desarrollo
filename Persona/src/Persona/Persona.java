@@ -1,3 +1,5 @@
+package Persona;
+
 
 import java.util.*;
 
@@ -9,8 +11,7 @@ public class Persona {
     /**
      * Default constructor
      */
-    public Persona() {
-    }
+
 
     /**
      * 
@@ -38,7 +39,7 @@ public class Persona {
      * @param apellidos 
      * @param edad
      */
-    public void Persona(String dni, String nombre, String apellidos, int edad) {
+    public Persona(String dni, String nombre, String apellidos, int edad) {
         // TODO implement here
     }
 
