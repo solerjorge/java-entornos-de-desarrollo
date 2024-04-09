@@ -9,4 +9,13 @@ public abstract class Algoritmos {
 			}
 			return suma;
 		 }
+	 
+	 public static int factorial(int num2) {
+		 int contador=1;
+		 for(int i=1; i<=num2; i++) {
+			 contador*=i;
+		 }
+		 
+		 return contador;
+	 }
 }
